@@ -13,16 +13,16 @@ def main():
     if len(sys.argv) < 2:
         print("ERROR: please provide a file to process...")
         print("USAGE: python digi2opens.py <filename>")
-        exit(0)
+        sys.exit()
     csv_filename = sys.argv[1]
     # Check if file is a csv
     if not validFileExtension(csv_filename, "csv", "xls"):
         print("ERROR: please provide a file with a valid extension...")
-        exit(0)
+        sys.exit()
     # Check if the file exists
     if not path.isfile(csv_filename):
         print(f"ERROR: {csv_filename} does not exist...")
-        exit(0)
+        sys.exit()
 
     # Get user specific details
     print(f"CSV Path: {csv_filename}")
