@@ -15,6 +15,12 @@ Currently the following suppliers lists/carts are supported:
 - [Digi-Key](https://www.digikey.com/) Lists
 - [Mouser](https://www.mouser.com/) Shopping Carts
 
+## 🎥 Demo:
+
+This following demo walks you through how to process a digikey list.
+
+<img src="./examples/demo.gif" width=600>
+
 ## ⚙️  Installation Instructions:
 
 ```bash
@@ -55,15 +61,3 @@ excel sheet required for processing.
 1. Open your cart `Cart > View Cart`
 2. Export the cart to excel `Export > To Excel`
 3. Run the following command: `python supplier2opens.py <path-to-xls>`
-
-## Demo:
-
-This following demo walks you through how to process a digikey list.
-
-### Running the script:
-
-<img src="./examples/demo.gif" width=600>
-
-### Pasting the contents:
-
-<img src="./examples/paste_demo.gif" width=600>
